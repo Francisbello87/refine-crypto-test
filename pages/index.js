@@ -15,16 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Nav/> */}
+      <Nav />
       <main className=" flex items-center  text-center justify-center gradient-text  h-screen w-full px-10">
         <div className=" flex flex-col mx-auto text-white ">
           <div className="font-bold md:text-[6.25rem] mb-8 text-4xl gradient-text">
-            <h1 className=" ">
-              Your Crypto.
-            </h1>
-            <h1 className=' md:mt-24' >
-              Family Style.
-            </h1>
+            <h1 className=" ">Your Crypto.</h1>
+            <h1 className=" md:mt-24">Family Style.</h1>
           </div>
 
           <p className=" md:text-xl text-sm bg-opacity-25 text-center text-[#484848] whitespace-nowrap">
